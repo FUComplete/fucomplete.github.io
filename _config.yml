@@ -1,8 +1,25 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: FUComplete
+description: Documentation on Monster Hunter Freedom Unite, Portable 2nd G and FUComplete Patch.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# logo: "/assets/images/logo.png"
+color_scheme: dark
+
+callouts:
+  note:
+    title: Note
+    color: blue
+
+url: https://fucomplete.github.io
+
+nav_external_links:
+  - title: FUComplete Config Editor
+    url: ./assets/config-editor.html
+    hide_icon: false
+    opens_in_new_tab: true
+
+mermaid:
+  version: "10.8.0"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
