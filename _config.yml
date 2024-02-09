@@ -14,7 +14,7 @@ url: https://fucomplete.github.io
 
 nav_external_links:
   - title: FUComplete Config Editor
-    url: ./assets/config-editor.html
+    url: ./assets/config_editor.html
     hide_icon: false
     opens_in_new_tab: true
 
