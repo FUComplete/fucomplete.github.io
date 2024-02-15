@@ -25,7 +25,7 @@ nav_order: 1
 * Configuration file support so you can enable/disable/tweak the features you want.
 * Various QoL features such as:
   - Minimap Scale
-  - Full chest access in Offline Gathering Hall
+  - Full chest access in Guildhall (Offline)
   - Adjustable Field of View
   - Faster pickup from supply chests
   - Hold to carve/gather

@@ -16,6 +16,43 @@ nav_order: 2
 
 ---
 
+## FUComplete v1.4.0
+
+### Enhancements/Additions
+* FUCTool updated
+  - Patcher
+    * Added PSP Go internal storage support. 
+      - ***NOTE:*** only use if placing ISO on PSP Go's internal storage.
+  - Config
+    * Updated strings to reflect the changes to File Replacer.
+    * Added `Guildhall Full Chest (Offline)` and `Guildhall Drink Buff` as toggle-able options.
+  - File Replacer
+    * Updated File Replacer to deal with the changes to NATIVEPSP, allowing dynamic file sizes.
+
+* [FUComplete Online Config Editor](https://fucomplete.github.io/)
+  - You can now edit/generate configuration files via web browser. Supports both 1.3.1 and 1.4.0. (Thanks [SilverJolteon](https://github.com/silverjolteon))
+ 
+* Modloader rewrite
+  - Code cleaned up and moved most of preload outside the main binary, allowing for more control during the preload initialization phase. 
+     * All assets related to modloader such as config, code and initial NATIVEPSP generation are all auto generated on game start if the do not exist.
+  - Changed directory where modloader assets are stored from `ms0:/FUC` to `ms0:/PSP/SAVEDATA/FUCDAT` to simplify location and ease of management.          │
+  - File size limits removed in NATIVEPSP, now you can load larger files... *within reason.*
+
+* Quality of Life
+  - Added hold to gather/carve.
+  - Can toggle ON/OFF File Replacer in the Options Menu from Main Menu.
+
+### Fixed
+* Player could spin in place at chests other than guildhall/room, fixed to only work in guildhall/room.
+* The option `Background Loading` if enabled would prevent file replacer from loading modified stages. Disabled and now changed to a `File Replacer` toggle.
+
+### Notes
+* Really just want to give a shoutout to Kurogami2134 and SilverJolteon...
+  - [Kurogami2134](https://github.com/Kurogami2134) for showing his work on PMO export and sending me some example exports to test with... Honestly if they never showed their work I'd probably would have never updated this patch.
+  - [SilverJolteon](https://github.com/silverjolteon) for creating the online config editor. I know a lot of people will appreciate it, especially android users.
+
+---
+
 ## FUComplete v1.3.1
 
 ### Enhancements/Additions
@@ -203,4 +240,3 @@ nav_order: 2
 ## FUComplete v1.0
 
 * Initial release of FUComplete patch.
-* Added 32bit patcher. 
