@@ -30,6 +30,7 @@ nav_order: 1
   - Faster pickup from supply chests
   - Hold to carve/gather
   - ...and more!
+{: .pl-6 }
 
 ### Screenshots:
 {: .text-yellow-300 .fw-700 .lh-default }
