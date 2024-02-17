@@ -2,6 +2,8 @@
 layout: default
 title: Setup
 nav_order: 2
+has_children: true
+has_toc: false
 ---
 
 # Setup
@@ -10,9 +12,9 @@ nav_order: 2
 ---
 
 ### Step 1: Download latest build of FUComplete
-{: .text-yellow-300 .fw-700 .pb-2 }
+{: .text-yellow-300 .fw-700 }
 
-1. Download the latest patch from [here](https://github.com/FUComplete/Patch/releases/latest).
+1. Download the latest patch from [here](https://github.com/FUComplete/Patch/releases/latest). You only need to download the `FUComplete_*.zip` file where `*` is the version number.
 2. Once downloaded, extract the zip to a folder. Keep note of where this folder is for the next steps.
 {: .pl-6 }
 
@@ -65,39 +67,52 @@ nav_order: 2
 3. Disconnect the PSP from the computer.
 {: .pl-6 }
 
+{: .note }
+After copying the ISO to your computer, you can check to make sure it dumped properly by making sure it matches this md5 checksum: `1f76ee9ccbd6d39158f06e6e5354a5bd`
+
 ---
 
 ### Step 3: Patching the ISO
 {: .text-yellow-300 .fw-700 }
 
-<!-- ### How do I apply the patch? What do I need?
-{: .text-yellow-300 .fw-700 .lh-default .pb-4 }
+1. Go to the folder that you extracted in [Step 1](#step-1-download-latest-build-of-fucomplete) and launch `FUCTool.exe`. It should open up on the `Patcher` tab.
+2. Press the `Select` button and select the ISO you transfered to your computer from [Step 2](#step-2-obtaining-the-iso). You should see the following:
+    
+    ```
+    INFO | Checking ISO...
+    INFO | Valid ISO file.
+    ```
+    {: .lh-0 }
+You're ISO is ready for patching.
+    
+    {: .note }
+    >If you see this when you select your ISO:
+    >```
+    >INFO | Checking ISO...
+    >ERROR | Invalid ISO, your dump should match one of the following md5 hashes:
+    >ERROR | UMD: 1f76ee9ccbd6d39158f06e6e5354a5bd
+    >ERROR | PSN: cc39d070b2d2c44c9ac8187e00b75dc4
+    >```
+    >{: .lh-0 }
+    > Please go back to [Step 2](#step-2-obtaining-the-iso) and redump your UMD and validate that the ISO matches the UMD hash or if you dumped your PSN copy to ISO make sure it matches the PSN hash.
+3. There are 2 checkboxes that can be ticked before applying the patch:
+    1. `Keep patched DATA.BIN outside of the ISO (for modders).`
+        - Tick this option if you plan to edit files or develop mods.
+    2. `PSP Go internal storage remapping (PSP Go only).`
+        - Tick this option **ONLY**{: .text-red-000 } if you plan to install the ISO onto PSP Go's internal memory. **DO NOT**{: .text-red-000 } enable this if you plan to install the game anywhere else.
+4. Once you have decided, press the `Patch ISO` button to begin patching. Please note that it can take a while.
+5. You will know that patching is done when you see `Patching done` and will say where the ISO is located with `_FUC` added at the end of the filename.
+{: .pl-6 }
 
-{: .note }
-> Please make sure that your copy of **Monster Hunter Portable 2nd G** matches one of the following md5 hashes:
-> ```
-> UMD: 1f76ee9ccbd6d39158f06e6e5354a5bd
-> PSN: cc39d070b2d2c44c9ac8187e00b75dc4
-> ```
-> {: .lh-tight }
-
-Make sure you use either a UMD dump or PSN version of **Monster Hunter Portable 2nd G** and download the [latest release](https://github.com/FUComplete/Patch/releases/latest)... extract the zip file into a folder.
-
-Run `FUCTool`, it should be on the "Patcher" tab. Press the `Select` button and select your ISO, it'll check to make sure the ISO is valid and will be ready to patch.
-
-There are 2 checkboxes you can tick:
-1. `Keep patched DATA.BIN outside of the ISO (for modders).`
-  - Tick this option if you plan to edit files or develop mods.
-2. `PSP Go internal storage remapping (PSP Go only).`
-  - Tick this option **ONLY**{: .text-red-000 } if you plan to install the ISO onto PSP Go's internal memory. **DO NOT**{: .text-red-000 } enable this if you plan to install the game anywhere else.
-
-Once you've decided, press the `Patch ISO` button. Once done you should see a `Patching done` message as well as where the patched image is saved.
+| <a href="/assets/images/fuctool_patching.png" target="_blank"><img src="/assets/images/fuctool_patching.png" width="75%"></a> |
+|:---:|
+| Patching done. |
 
 ---
 
-### I don't have a PC, can I apply the patch on Android? 
-{: .text-yellow-300 .fw-700 .lh-default .pb-4 }
+### Step 4: Play the game!
+{: .text-yellow-300 .fw-700 .pb-2 }
 
-There is no Android native version of `FUCTool`... so no, you will need a PC to apply the patch.
+Now with the game patched, you should at least boot the game once to generate all the necessary base mod files in SAVEDATA.
 
---- -->
+Afterwards, you can start the process of [setting up your config](/docs/fuctool/config.md), [make use of file replacer to load additional mods](/docs/fuctool/file_replacer.md) and [injecting custom quests to play](/docs/fuctool/custom_quests.md). 

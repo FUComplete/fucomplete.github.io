@@ -22,6 +22,13 @@ Due to issues with finding translators for the various langauges and having memo
 
 ---
 
+### Does this work on a PSP/Vita or is this emulator only? 
+{: .text-yellow-300 .fw-700 .lh-default .pb-4 }
+
+FUComplete is fully compatible with real hardware. As such there are no "emulator only" features.
+
+---
+
 ### Is this allowed on Hunsterverse?
 {: .text-yellow-300 .fw-700 .lh-default .pb-4 }
 

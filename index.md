@@ -35,11 +35,6 @@ nav_order: 1
 ### Screenshots:
 {: .text-yellow-300 .fw-700 .lh-default }
 
-<a href="/assets/images/mod_savedata.png" target="_blank"><img src="/assets/images/mod_savedata.png"></a>
-<a href="/assets/images/options_menu.png" target="_blank"><img src="/assets/images/options_menu.png"></a>
-<a href="/assets/images/quest_toggle.png" target="_blank"><img src="/assets/images/quest_toggle.png"></a>
-{: .d-flex .flex-justify-around }
-<a href="/assets/images/jdlc_quest.png" target="_blank"><img src="/assets/images/jdlc_quest.png"></a>
-<a href="/assets/images/FoV.webp" target="_blank"><img src="/assets/images/FoV-smaller.webp"></a>
-<a href="/assets/images/Minimap.webp" target="_blank"><img src="/assets/images/Minimap-smaller.webp"></a>
-{: .d-flex .flex-justify-around }
+| <a href="/assets/images/mod_savedata.png" target="_blank"><img src="/assets/images/mod_savedata.png"></a> | <a href="/assets/images/options_menu.png" target="_blank"><img src="/assets/images/options_menu.png"></a> | <a href="/assets/images/quest_toggle.png" target="_blank"><img src="/assets/images/quest_toggle.png"></a> |
+|:---:|:---:|:---:|
+| <a href="/assets/images/jdlc_quest.png" target="_blank"><img src="/assets/images/jdlc_quest.png"></a> | <a href="/assets/images/FoV.webp" target="_blank"><img src="/assets/images/FoV-smaller.webp"></a> | <a href="/assets/images/Minimap.webp" target="_blank"><img src="/assets/images/Minimap-smaller.webp"></a> |
