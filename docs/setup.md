@@ -24,6 +24,7 @@ has_toc: false
 {: .text-yellow-300 .fw-700 }
 
 ![SetupLogo](/assets/images/setup_pspgame.png)
+{: .pb-8 }
 
 ### Requirements:
 {: .text-yellow-300 .fw-700 }
@@ -83,7 +84,7 @@ After copying the ISO to your computer, you can check to make sure it dumped pro
     INFO | Valid ISO file.
     ```
     {: .lh-0 }
-You're ISO is ready for patching.
+Your ISO is ready for patching.
     
     {: .note }
     >If you see this when you select your ISO:
@@ -99,7 +100,7 @@ You're ISO is ready for patching.
     1. `Keep patched DATA.BIN outside of the ISO (for modders).`
         - Tick this option if you plan to edit files or develop mods.
     2. `PSP Go internal storage remapping (PSP Go only).`
-        - Tick this option **ONLY**{: .text-red-000 } if you plan to install the ISO onto PSP Go's internal memory. **DO NOT**{: .text-red-000 } enable this if you plan to install the game anywhere else.
+        - Tick this option **ONLY**{: .text-red-000 } if you plan to install the ISO onto PSP Go's internal memory.<br>**DO NOT**{: .text-red-000 } enable this if you plan to install the game anywhere else.
 4. Once you have decided, press the `Patch ISO` button to begin patching. Please note that it can take a while.
 5. You will know that patching is done when you see `Patching done` and will say where the ISO is located with `_FUC` added at the end of the filename.
 {: .pl-6 }
@@ -110,9 +111,13 @@ You're ISO is ready for patching.
 
 ---
 
-### Step 4: Play the game!
+### Step 4: Start the game!
 {: .text-yellow-300 .fw-700 .pb-2 }
 
-Now with the game patched, you should at least boot the game once to generate all the necessary base mod files in SAVEDATA.
+Now with the game patched, you should at least boot the game once to generate all the necessary base mod files and config in SAVEDATA.
 
-Afterwards, you can start the process of [setting up your config](/docs/fuctool/config.md), [make use of file replacer to load additional mods](/docs/fuctool/file_replacer.md) and [injecting custom quests to play](/docs/fuctool/custom_quests.md). 
+| <a href="/assets/images/mod_savedata.png" target="_blank"><img src="/assets/images/mod_savedata.png" width="75%"></a> |
+|:---:|
+| After booting the game once you should see `FUComplete Config and Mods` savedata present |
+
+Afterwards, you can start the process of [adjusting your config](/docs/fuctool/config.html), [make use of file replacer to load additional mods](/docs/fuctool/file_replacer.html) and [injecting custom quests to play](/docs/fuctool/custom_quests.html). 

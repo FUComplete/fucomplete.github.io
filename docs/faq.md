@@ -88,7 +88,7 @@ This implies you are on a **Custom Firmware** (CFW) on a PSP or running **Adrena
 
 Please set your CPU clock speed to `333/166` by pressing `Select` at VSH menu and changing the option `CPU CLOCK GAME` to `333/166`. 
 
-| <img src="/assets/images/vsh_menu.png"> |
+| <a href="/assets/images/vsh_menu.png" target="_blank"><img src="/assets/images/vsh_menu.png" width="75%"></a> |
 |:---:|
 | VSH Menu |
 
