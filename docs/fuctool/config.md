@@ -44,6 +44,8 @@ This is also toggleable in-game from `Main Menu` under `Options`.
 
 For more information on how to use this feature fully, please see the [File Replacer](/docs/fuctool/file_replacer.html) section.
 
+**Default is `Disable`**
+
 ---
 
 ### Save Region
