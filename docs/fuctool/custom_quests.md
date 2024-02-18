@@ -11,6 +11,18 @@ parent: Setup
 {: .warning }
 Just as a precaution, **ALWAYS** backup your save before injecting quests just in case something goes wrong.
 
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
+
+### Injecting Quests
+{: .text-yellow-300 .fw-700 .text-center }
+<br>
+
 In the folder where you extracted the zip from [Step 1](/docs/setup.html/#step-1-download-latest-build-of-fucomplete), copy your custom quests to the `quests` folder. 
 
 Open `FUCTool` and go to the `Custom Quests` tab, you should see your quests listed in the left table.
@@ -42,3 +54,19 @@ Please **DO NOT** try to resave while you have the game running, this will corru
 | <a href="/assets/images/fuctool_cq3.png" target="_blank"><img src="/assets/images/fuctool_cq3.png"></a> | <a href="/assets/images/fuctool_cq4.png" target="_blank"><img src="/assets/images/fuctool_cq4.png"></a> |
 | Press the `--->` button to queue the quests for injection. | Press `Save` to write the quests to savedata. |
 
+---
+
+### Loading Custom Quests In-game
+{: .text-yellow-300 .fw-700 .text-center }
+<br>
+
+{: .note}
+>When you start your game you may see a message like this pop-up on PPSSPP. 
+>![OldSave](/assets/images/fuctool_cq_errormsg.png)
+> If you do, you can remove it by saving in-game and you'll no longer see the message.
+
+To play your custom quests, go to the Guildhall, open your options menu and under `Savedata Quests` toggle the option `ON`. Once enabled talk to a quest giver and open the "Events" tab... you should see your injected quests.
+
+| <a href="/assets/images/fuctool_cq_toggle.png" target="_blank"><img src="/assets/images/fuctool_cq_toggle.png"></a> | <a href="/assets/images/fuctool_cq_events_tab.png" target="_blank"><img src="/assets/images/fuctool_cq_events_tab.png"></a> |
+|:---:|:---:|
+| Toggle `ON` the `Savedata Quests` option. | Go to `Events` and you should see your custom quests listed. |
