@@ -9,6 +9,9 @@ callouts:
   note:
     title: Note
     color: blue
+  warning:
+    title: Warning
+    color: red
 
 url: https://fucomplete.github.io
 

@@ -8,8 +8,20 @@ parent: Setup
 # Configuration
 {: .text-yellow-300 .fw-500 .text-center .fs-8 .lh-default .no_toc }
 
-{: .note }
+{: .warning }
 >Please make sure you boot the game at least **once** to generate the necessary base files as mentioned in [Step 4](/docs/setup.html#step-4-start-the-game) of Setup.
+
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
+
+## Updating `CONFIG.BIN`
+{: .text-yellow-300 .fw-700 .text-center }
+<br>
 
 When the game loads, it reads your configuration file (`CONFIG.BIN`) and applies the various features/QoL based on what you set.
 
@@ -23,22 +35,22 @@ There are 2 ways to edit your `CONFIG.BIN`:
 |:---:|:---:|
 | FUCTool Config Editor | FUComplete Online Config Editor |
 
+Once you are happy with your settings, press `Save` and copy your new `CONFIG.BIN` to `FUCDAT` in SAVEDATA. 
+
+{: .note }
+Please see [So I’ve updated my config, Where does `CONFIG.BIN` go?](/docs/faq.html#so-ive-updated-my-config-where-does-configbin-go) if you are still unsure where to place it.
+
 Below explains what each option does as well as what the default setting is.
 
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-- TOC
-{:toc}
-
----
+## Options
+{: .text-yellow-300 .fw-700 .text-center }
 
 ### File Replacer
 {: .text-yellow-300 .fw-700 .pb-2 }
 
-Allows loading of modded files from `NATIVEPSP`.
+**When enabled:** Allows loading of modded files from `NATIVEPSP`.
 
 This is also toggleable in-game from `Main Menu` under `Options`.
 
@@ -99,7 +111,7 @@ These themes are:
 ### Field of View
 {: .text-yellow-300 .fw-700 .pb-2 }
 
-Allows adjusting how much of the games "world" you can see.
+Allows adjusting your *viewport* or how much of the games *"world"* you can see.
 
 | <a href="/assets/images/FoV.webp" target="_blank"><img src="/assets/images/FoV.webp"></a> |
 |:---:|
@@ -112,7 +124,7 @@ Allows adjusting how much of the games "world" you can see.
 ### Starting Vertical Camera Position
 {: .text-yellow-300 .fw-700 .pb-2 }
 
-Allows adjusting your *viewport* or how much of the games *"world"* you can see.
+Sets the starting vertical camera position when you embark on a quest.
 
 | <a href="/assets/images/vert_cam_setting.webp" target="_blank"><img src="/assets/images/vert_cam_setting.webp"></a> |
 |:---:|
@@ -138,7 +150,7 @@ Sets a scaling modifier for minimap size. If either 75% or 50% are selected the 
 ### Hunting Horn Tweak
 {: .text-yellow-300 .fw-700 .pb-2 }
 
-Enable/Disable modified Hunting Horn mechanics. When disabled, you have vanilla hunting horn values/mechanics however when enabled you have:
+**When enabled:** Have modified Hunting Horn mechanics with the following changes:
 
 * Note mechanics work similar to Frontier, where notes only clear if you sheath your weapon or have a forced sheathed interaction.
 * Left and right swing MV/KO values increased to match P2/F2 values. 31 MV and 18 KO, up from 27 MV and 15 KO.
