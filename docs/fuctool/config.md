@@ -50,11 +50,7 @@ Below explains what each option does as well as what the default setting is.
 ### File Replacer
 {: .text-yellow-300 .fw-700 .pb-2 }
 
-**When enabled:** Allows loading of modded files from `NATIVEPSP`.
-
-This is also toggleable in-game from `Main Menu` under `Options`.
-
-For more information on how to use this feature fully, please see the [File Replacer](/docs/fuctool/file_replacer.html) section.
+**When enabled:** Allows loading of modded files from `NATIVEPSP`. This is also toggleable in-game from `Main Menu` under `Options`. For more information on how to use this feature fully, please see the [File Replacer](/docs/fuctool/file_replacer.html) section.
 
 **Default is `Disable`**
 
