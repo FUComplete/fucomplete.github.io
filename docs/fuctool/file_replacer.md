@@ -25,7 +25,7 @@ In the folder where you extracted the zip from [Step 1](/docs/setup.html/#step-1
 Open `FUCTool` and go to the `File Replacer` tab, you should see your mods listed in the table below.
 
 {: .note }
-If you do not see your mods listed, please make sure the files are correctly name, the files are **case sensitive**.
+If you do not see your mods listed, please make sure the files are correctly named, the files are **case sensitive**.
 
 If your mods are listed correctly, press the `Generate NATIVEPSP` button to generate the folder. This folder will need to be copied to the `FUCDAT` folder located in your SAVEDATA
 
@@ -53,7 +53,7 @@ If your mods are listed correctly, press the `Generate NATIVEPSP` button to gene
 {: .text-yellow-300 .fw-700 .text-center }
 <br>
 
-There are 2 ways to enable mods:
+There are 2 ways to enable mods, either:
 
 * Editing your `CONFIG.BIN` in `FUCTool` and set the `File Replacer` option to `Enable`.
 * Enable in-game by going to `Options` from `Main Menu` and enable `File Replacer`.

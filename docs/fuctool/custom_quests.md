@@ -46,7 +46,9 @@ Once you select your save folder you can now begin to backup/inject quests.
 Once you are happy, hit the `Save` button to inject the quests.
 
 {: .warning }
-Please **DO NOT** try to resave while you have the game running, this will corrupt your save. **ALWAYS** have the game closed and reload your save when you inject quests.
+>Please **DO NOT** try to resave while you have the game running, this will corrupt your save.
+>
+>**ALWAYS** have the game closed and reload your save when you inject quests.
 
 | <a href="/assets/images/fuctool_cq1.png" target="_blank"><img src="/assets/images/fuctool_cq1.png"></a> | <a href="/assets/images/fuctool_cq2.png" target="_blank"><img src="/assets/images/fuctool_cq2.png"></a> |
 |:---:|:---:|

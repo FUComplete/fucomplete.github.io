@@ -18,7 +18,7 @@ nav_order: 4
 ### Why use Portable 2nd G as a base and not Freedom Unite? 
 {: .text-yellow-300 .fw-700 .lh-default .pb-4 }
 
-Due to issues with finding translators for the various langauges and having memory limit issues, it was decided to move to Portable 2nd G as I didn't have to worry about more than one language and I had significantly more memory to play with.
+Due to issues with finding translators for the various languages and having memory limit issues, it was decided to move to Portable 2nd G as I didn't have to worry about more than one language and I had significantly more memory to play with.
 
 ---
 

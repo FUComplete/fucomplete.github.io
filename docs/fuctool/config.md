@@ -25,7 +25,7 @@ parent: Setup
 
 When the game loads, it reads your configuration file (`CONFIG.BIN`) and applies the various features/QoL based on what you set.
 
-There are 2 ways to edit your `CONFIG.BIN`:
+There are 2 ways to edit your `CONFIG.BIN`, either:
 
 * FUCTool's Config Editor
 * [FUComplete Online Config Editor](/assets/config_editor.html)
@@ -157,7 +157,7 @@ Sets a scaling modifier for minimap size. If either 75% or 50% are selected the 
 
 ---
 
-### Early kill /LaoShen (Fortress)
+### Early kill Lao/Shen (Fortress)
 {: .text-yellow-300 .fw-700 .pb-2 }
 
 **When enabled**: Lao-Shan Lung, Ash Lao-Shan Lung and Shen Gaoren quests that are on Fortress have their HP thresholds removed, allowing for pre area 5 kills.
@@ -185,6 +185,11 @@ This only works **OFFLINE**
 {: .text-yellow-300 .fw-700 .pb-2 }
 
 **When enabled**: Can get a quick Health and Stamina boost without leaving the Guildhall, based on how many active Felyne Chefs you have working in your kitchen.
+
+{: .note }
+>This does not provide any felyne food skills and you can *either* drink in hall for a quick boost **OR** eat in kitchen... not **BOTH**.
+>
+>For the added food skill bonuses, eating in the kitchen directly is still required. 
 
 * For each active chef in your kitchen:<br>Receive +10 max Health (max +50 at 5 chefs)
 * For 1-4 active chef in your kitchen:<br>Receive +25 max Stamina (max +50 at 5 chefs)
