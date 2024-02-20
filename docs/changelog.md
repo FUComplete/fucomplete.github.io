@@ -45,6 +45,7 @@ nav_order: 5
 ### Fixed
 {: .text-yellow-300 .fw-700 }
 
+* When injecting custom quests, FUCTool would encrypt zeroed quests in empty slots. Properly clears quest slots now if empty.
 * Player could spin in place at chests other than guildhall/room, fixed to only work in guildhall/room.
 * The option `Background Loading` if enabled would prevent file replacer from loading modified stages. Disabled and now changed to a `File Replacer` toggle.
 {: .pl-6 }

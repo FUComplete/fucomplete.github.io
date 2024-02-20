@@ -101,6 +101,13 @@ Quest files must be either `.mib` or `.pat` and have to be **decrypted**.
 
 ---
 
+### Why do my injected quests not show up when switching back to unpatched?
+{: .text-yellow-300 .fw-700 .lh-default .pb-4 }
+
+Due to the reallocation of slots and encryption differences these will not show up under a unpatched game. You will have to use [save tools](https://forums.ppsspp.org/showthread.php?tid=5476){:target="_blank"} or download them again for your region copy on a PSP. 
+
+---
+
 ### Why do I get "Old savedata detected" on PPSSPP after adding/removing quests from save? Does it cause any problems?
 {: .text-yellow-300 .fw-700 .lh-default .pb-4 }
 
