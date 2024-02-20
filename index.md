@@ -42,3 +42,19 @@ nav_order: 1
 
 [![KOFI](https://img.shields.io/badge/Support%20me%20on%20Ko--Fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=ffffff)](https://ko-fi.com/incognitoman){:target="_blank"}
 {: .text-center }
+
+---
+
+### Credits and Thanks:
+{: .text-yellow-300 .fw-700 .lh-tight }
+* **Hario** for helping with the programming side of things.
+* **Rozalin** and **ShadyFigure** for translations.
+* **Codestation** for [mhtools](https://github.com/codestation/mhtools).
+* **Svanheulen** for [mhff](https://github.com/svanheulen/mhff) and [mhef](https://github.com/svanheulen/mhef).
+* **AsteriskAmpersand** for [PMO-Importer](https://github.com/AsteriskAmpersand/PMO-Importer).
+* **Yuzucchi** for insight on some code.
+* **SilverJolteon** for [FUComplete Online Config Editor](https://fucomplete.github.io/assets/config_editor.html)
+* **Capcom** for creating P2G/FU.
+* **Testers** - Fallingferret, Abbanon, 6thQuill, RecitalMode, Mr.Madness and anyone else I may have missed.
+* **[MH Modding Discord](https://discord.gg/gJwMdhK)** for putting up with my rants and helping out with figuring out some of the code. Especially a thank you to Silvris, Miralis and Dave uRrr.
+{: .pl-6 }
