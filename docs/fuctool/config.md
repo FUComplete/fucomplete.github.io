@@ -92,12 +92,12 @@ This is purely visual and removes the need to calculate the true values of a wea
 
 These themes are:
 
-* [Jungle](https://youtu.be/wP1Tiq74gWs)
-* [Desert](https://youtu.be/Hjf1QfiTBbY)
-* [Swamp](https://youtu.be/ZRQT-QYB0_I)
-* [Snowy Mountain](https://youtu.be/7T0Vp7okMhE)
-* [Volcano](https://youtu.be/vHSCNxTjX1c)
-* [Tower](https://youtu.be/f5ZNBm9EuEc)
+* [Jungle](https://youtu.be/wP1Tiq74gWs){:target="_blank"}
+* [Desert](https://youtu.be/Hjf1QfiTBbY){:target="_blank"}
+* [Swamp](https://youtu.be/ZRQT-QYB0_I){:target="_blank"}
+* [Snowy Mountain](https://youtu.be/7T0Vp7okMhE){:target="_blank"}
+* [Volcano](https://youtu.be/vHSCNxTjX1c){:target="_blank"}
+* [Tower](https://youtu.be/f5ZNBm9EuEc){:target="_blank"}
 {: .pl-6 }
 
 **Default is `Disable`**
