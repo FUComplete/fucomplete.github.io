@@ -208,7 +208,7 @@ button:hover{
         document.getElementById("error").style.display = "none";
         if(pre_1_4_0){
             document.getElementById("config_version").value = CONFIG_VERSION.toString();
-            document.getElementById("file_replacer_path").value = CONFIG_DATA[0x04].toString();
+            document.getElementById("file_replacer_path_old").value = CONFIG_DATA[0x04].toString();
             document.getElementById("save_region").value = CONFIG_DATA[0x05].toString();
             document.getElementById("true_raw").value = CONFIG_DATA[0x06].toString();
             document.getElementById("dos_audio").value = CONFIG_DATA[0x07].toString();
@@ -230,7 +230,7 @@ button:hover{
                 dropdown.appendChild(option);
             }
             document.getElementById("config_version").value = CONFIG_VERSION.toString();
-            document.getElementById("file_replacer_path").value = CONFIG_DATA[0x10].toString();
+            document.getElementById("file_replacer_path_new").value = CONFIG_DATA[0x10].toString();
             document.getElementById("save_region").value = CONFIG_DATA[0x11].toString();
             document.getElementById("true_raw").value = CONFIG_DATA[0x12].toString();
             document.getElementById("dos_audio").value = CONFIG_DATA[0x13].toString();
@@ -293,7 +293,7 @@ button:hover{
             toggleHidden();
         }
         if(pre_1_4_0){
-            CONFIG_DATA[0x04] = parseInt(document.getElementById("file_replacer_path").value);
+            CONFIG_DATA[0x04] = parseInt(document.getElementById("file_replacer_path_old").value);
             CONFIG_DATA[0x05] = parseInt(document.getElementById("save_region").value);
             CONFIG_DATA[0x06] = parseInt(document.getElementById("true_raw").value);
             CONFIG_DATA[0x07] = parseInt(document.getElementById("dos_audio").value);
@@ -306,7 +306,7 @@ button:hover{
         else{
             var version_data = str2bytes(CONFIG_VERSION);
             for(var i = 0; i < version_data.length; i++) CONFIG_DATA[i] = version_data[i];
-            CONFIG_DATA[0x10] = parseInt(document.getElementById("file_replacer_path").value);
+            CONFIG_DATA[0x10] = parseInt(document.getElementById("file_replacer_path_new").value);
             CONFIG_DATA[0x11] = parseInt(document.getElementById("save_region").value);
             CONFIG_DATA[0x12] = parseInt(document.getElementById("true_raw").value);
             CONFIG_DATA[0x13] = parseInt(document.getElementById("dos_audio").value);
@@ -339,7 +339,8 @@ button:hover{
         }
         document.getElementById("config_version").remove(3);
         document.getElementById("config_version").value = 140;
-        document.getElementById("file_replacer_path").value = 0;
+        document.getElementById("file_replacer_path_old").value = 0;
+        document.getElementById("file_replacer_path_new").value = 0;
         document.getElementById("save_region").value = 1;
         document.getElementById("true_raw").value = 0;
         document.getElementById("dos_audio").value = 0;
@@ -389,7 +390,7 @@ button:hover{
 
 <td class="old_settings">
     <label>File Replacer Path</label>
-    <select onchange="updateConfig()" id="file_replacer_path">
+    <select onchange="updateConfig()" id="file_replacer_path_old">
         <option value="0" selected>DISC0</option>
         <option value="1">MS0</option>
     </select>
@@ -418,7 +419,7 @@ button:hover{
 </td>
 <td class="new_settings">
     <label>File Replacer</label>
-    <select onchange="updateConfig()" id="file_replacer_path">
+    <select onchange="updateConfig()" id="file_replacer_path_new">
         <option value="0" selected>Disable</option>
         <option value="1">Enable</option>
     </select>
