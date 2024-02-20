@@ -14,7 +14,7 @@ has_toc: false
 ### Step 1: Download latest build of FUComplete
 {: .text-yellow-300 .fw-700 }
 
-1. [Download the latest patch from here](https://github.com/FUComplete/Patch/releases/latest). You only need to download the `FUComplete_*.zip` file where `*` is the version number.
+1. [Download the latest patch from here](https://github.com/FUComplete/Patch/releases/latest){:target="_blank"}. You only need to download the `FUComplete_*.zip` file where `*` is the version number.
 2. Once downloaded, extract the zip to a folder. Keep note of where this folder is for the next steps.
 {: .pl-6 }
 
@@ -33,7 +33,7 @@ has_toc: false
 * *At least* a 1GB Memory Stick
 * Monster Hunter Portable 2nd G
 * A USB cable to transfer
-* PSP Filer v6.6 ([Download](https://archive.org/download/filer6.6/filer6.6.zip))
+* PSP Filer v6.6 ([Download](https://archive.org/download/filer6.6/filer6.6.zip){:target="_blank"})
 {: .pl-6 .pb-2 }
 
 #### Copy PSP Filer to PSP

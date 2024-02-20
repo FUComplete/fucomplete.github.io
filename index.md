@@ -49,11 +49,11 @@ nav_order: 1
 {: .text-yellow-300 .fw-700 .lh-tight }
 * **Hario** for helping with the programming side of things.
 * **Rozalin** and **ShadyFigure** for translations.
-* **Codestation** for [mhtools](https://github.com/codestation/mhtools).
-* **Svanheulen** for [mhff](https://github.com/svanheulen/mhff) and [mhef](https://github.com/svanheulen/mhef).
-* **AsteriskAmpersand** for [PMO-Importer](https://github.com/AsteriskAmpersand/PMO-Importer).
+* **Codestation** for [mhtools](https://github.com/codestation/mhtools){:target="_blank"}.
+* **Svanheulen** for [mhff](https://github.com/svanheulen/mhff){:target="_blank"} and [mhef](https://github.com/svanheulen/mhef){:target="_blank"}.
+* **AsteriskAmpersand** for [PMO-Importer](https://github.com/AsteriskAmpersand/PMO-Importer){:target="_blank"}.
 * **Yuzucchi** for insight on some code.
-* **SilverJolteon** for [FUComplete Online Config Editor](https://fucomplete.github.io/assets/config_editor.html)
+* **SilverJolteon** for [FUComplete Online Config Editor](https://fucomplete.github.io/assets/config_editor.html){:target="_blank"}
 * **Capcom** for creating P2G/FU.
 * **Testers** - Fallingferret, Abbanon, 6thQuill, RecitalMode, Mr.Madness and anyone else I may have missed.
 * **[MH Modding Discord](https://discord.gg/gJwMdhK)** for putting up with my rants and helping out with figuring out some of the code. Especially a thank you to Silvris, Miralis and Dave uRrr.

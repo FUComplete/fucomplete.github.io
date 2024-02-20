@@ -28,7 +28,7 @@ When the game loads, it reads your configuration file (`CONFIG.BIN`) and applies
 There are 2 ways to edit your `CONFIG.BIN`, either:
 
 * FUCTool's Config Editor
-* [FUComplete Online Config Editor](/assets/config_editor.html)
+* [FUComplete Online Config Editor](/assets/config_editor.html){:target="_blank"}
 {: .pl-6 }
 
 | <a href="/assets/images/fuctool_config.png" target="_blank"><img src="/assets/images/fuctool_config.png"></a> | <a href="/assets/images/foce_config.png" target="_blank"><img src="/assets/images/foce_config.png"></a> |
