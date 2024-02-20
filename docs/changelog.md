@@ -30,8 +30,8 @@ nav_order: 5
     * Added `Guildhall Full Chest (Offline)` and `Guildhall Drink Buff` as toggle-able options.
   - File Replacer
     * Updated File Replacer to deal with the changes to NATIVEPSP, allowing dynamic file sizes.
-* [FUComplete Online Config Editor](https://fucomplete.github.io/)
-  - You can now edit/generate configuration files via web browser. Supports both 1.3.1 and 1.4.0. (Thanks [SilverJolteon](https://github.com/silverjolteon))
+* [FUComplete Online Config Editor](/assets/config_editor.html){:target="_blank"}
+  - You can now edit/generate configuration files via web browser. Supports both 1.3.1 and 1.4.0. (Thanks [SilverJolteon](https://github.com/silverjolteon){:target="_blank"})
 * Modloader rewrite
   - Code cleaned up and moved most of preload outside the main binary, allowing for more control during the preload initialization phase. 
      * All assets related to modloader such as config, code and initial NATIVEPSP generation are all auto generated on game start if the do not exist.
@@ -54,8 +54,8 @@ nav_order: 5
 {: .text-yellow-300 .fw-700 }
 
 * Really just want to give a shoutout to Kurogami2134 and SilverJolteon...
-  - [Kurogami2134](https://github.com/Kurogami2134) for showing his work on PMO export and sending me some example exports to test with... Honestly if they never showed their work I'd probably would have never updated this patch.
-  - [SilverJolteon](https://github.com/silverjolteon) for creating the online config editor. I know a lot of people will appreciate it, especially android users.
+  - [Kurogami2134](https://github.com/Kurogami2134){:target="_blank"} for showing his work on PMO export and sending me some example exports to test with... Honestly if they never showed their work I'd probably would have never updated this patch.
+  - [SilverJolteon](https://github.com/silverjolteon){:target="_blank"} for creating the online config editor. I know a lot of people will appreciate it, especially android users.
 {: .pl-6 }
 
 ---
