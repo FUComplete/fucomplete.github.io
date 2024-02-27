@@ -54,6 +54,7 @@ nav_order: 1
 * **AsteriskAmpersand** for [PMO-Importer](https://github.com/AsteriskAmpersand/PMO-Importer){:target="_blank"}.
 * **Yuzucchi** for insight on some code.
 * **SilverJolteon** for [FUComplete Online Config Editor](https://fucomplete.github.io/assets/config_editor.html){:target="_blank"}
+* **Kurogami2134** for [pmo-export](https://github.com/Kurogami2134/pmo_export){:target="_blank"}
 * **Capcom** for creating P2G/FU.
 * **Testers** - Fallingferret, Abbanon, 6thQuill, RecitalMode, Mr.Madness and anyone else I may have missed.
 * **[MH Modding Discord](https://discord.gg/gJwMdhK){:target="_blank"}** for putting up with my rants and helping out with figuring out some of the code. Especially a thank you to Silvris, Miralis and Dave uRrr.

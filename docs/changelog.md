@@ -4,7 +4,7 @@ title: Changelog
 nav_order: 5
 ---
 
-# **Changelog**
+# Changelog
 {: .text-yellow-300 .fw-500 .text-center .fs-8 .lh-default .no_toc }
 
 ## Table of contents

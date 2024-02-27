@@ -4,9 +4,6 @@ title: What's Changed
 nav_order: 3
 ---
 
-<!-- <span class="label" style="background-color: #2c84fa; color: white;">Config</span> -->
-<!-- <span class="label" style="background-color: #7253ed; color: white;">Config</span> -->
-
 # What's Changed?
 {: .text-yellow-300 .fw-500 .text-center .fs-8 .lh-default .no_toc }
 
