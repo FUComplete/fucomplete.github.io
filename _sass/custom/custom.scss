@@ -1,0 +1,15 @@
+// Make site wider...
+@media (min-width: 50rem) {
+    .main {
+        max-width: 70rem;
+    }
+}
+
+@media (min-width: 66.5rem) {
+    .main {
+        margin-left: max(16.5rem, (100% - 86.5rem) / 2 + 16.5rem);
+    }
+    .side-bar {
+        width: calc((100% - 86.5rem) / 2 + 16.5rem);
+    }
+}
