@@ -3,12 +3,33 @@ description: FUComplete is a modification of MHP2G, aiming to be feature complet
 theme: just-the-docs
 
 logo: "/assets/images/patch_logo.png"
-color_scheme: dark
+color_scheme: fuc
+
+collections:
+  files_doc:
+    output: true
+  datamine_doc:
+    output: true
+  tutorials:
+    output: true
+  links:
+    output: true
+
+just_the_docs:
+  collections:
+    files_doc:
+      name: Documentation
+    datamine_doc:
+      name: Data Mines
+    tutorials:
+      name: Tutorials
+    links:
+      name: Links
 
 callouts:
   note:
     title: Note
-    color: blue
+    color: purple
   warning:
     title: Warning
     color: red
@@ -24,5 +45,7 @@ nav_external_links:
 mermaid:
   version: "10.8.0"
 
-aux_links:
-#  Download Patch: https://github.com/FUComplete/Patch
+# aux_links_new_tab: true
+# aux_links:
+#   "FUComplete Config Editor": 
+#     - ../../assets/config_editor.html
