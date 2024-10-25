@@ -33,6 +33,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  important:
+    title: Important
+    color: blue
 
 url: https://fucomplete.github.io
 

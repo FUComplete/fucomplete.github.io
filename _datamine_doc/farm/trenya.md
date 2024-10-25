@@ -26,7 +26,7 @@ parent: Farm
   </thead>
   <tbody>
     <tr>
-      <th>Depature</th>
+      <th>Departure</th>
       <th>Arrival</th>
       <th>Table A</th>
       <th>Table B</th>
@@ -81,7 +81,7 @@ parent: Farm
 </table>
 
 {: .note }
-The white percentages are the overall chance of landing with that specific depature, arrival and table selection. The grey percentages are the chance you land in a given table based on your depature and arrival.
+The white percentages are the overall chance of landing with that specific departure, arrival and table selection. The grey percentages are the chance you land in a given table based on your departure and arrival.
 
 
 <table>

@@ -64,7 +64,9 @@ Once you are happy, hit the `Save` button to inject the quests.
 
 {: .note}
 >When you start your game you may see a message like this pop-up on PPSSPP. 
+>
 >![OldSave](/assets/images/fuctool_cq_errormsg.png)
+>
 > If you do, you can remove it by saving in-game and you'll no longer see the message.
 
 To play your custom quests, go to the Guildhall, open your options menu and under `Savedata Quests` toggle the option `ON`. Once enabled talk to a quest giver and open the "Events" tab... you should see your injected quests.

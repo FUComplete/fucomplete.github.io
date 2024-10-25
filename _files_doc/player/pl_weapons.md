@@ -6,13 +6,15 @@ nav_order: 3
 ---
 
 # Weapons
-{: .text-yellow-300 .fw-500 .fs-8 .lh-default .no_toc }
+{: .text-yellow-300 .fw-700 .no_toc }
+
+---
 
 {: .note }
 Seems like `we507.pac` and `we540.pac` are duplicates of existing weapons (`Great Arbalest` HBG and `Odyssey` SnS respectively) and are not called on by the game.
 
 
-| File Name | File ID |                                                   Weapons                                                  |
+| <span style="color:#ffeb82">File Name</span> | <span style="color:#ffeb82">File ID</span> | <span style="color:#ffeb82">Armor</span> |
 |:---------:|:-------:|:----------------------------------------------------------------------------------------------------------:|
 | we000.pac |   3388  |                 Iron Katana<br>Iron Katana "Grace"<br>Iron Katana "Gospel"<br>Iron Katana G                |
 | we001.pac |   3389  |                                      Halberd<br>Judgment<br>Judgment G                                     |

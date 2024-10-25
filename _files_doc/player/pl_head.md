@@ -6,14 +6,16 @@ nav_order: 1
 ---
 
 # Head Armor
-{: .text-yellow-300 .fw-500 .fs-8 .lh-default .no_toc }
+{: .text-yellow-300 .fw-700 .no_toc }
+
+---
 
 | [![Female](../../assets/images/female_icon_b.png)](#female)<br>Female | [![Female](../../assets/images/male_icon_b.png)](#male)<br>Male | 
 {: .text-yellow-300 .fw-700 .text-center }
 
 ---
 
-### Female
+## Female
 {: .text-yellow-300 .fw-700 }
 
 | <span style="color:#ffeb82">File Name</span> | <span style="color:#ffeb82">File ID</span> | <span style="color:#ffeb82">Armor</span> |
@@ -334,7 +336,7 @@ nav_order: 1
 
 ---
 
-### Male
+## Male
 {: .text-yellow-300 .fw-700 }
 
 | <span style="color:#ffeb82">File Name</span> | <span style="color:#ffeb82">File ID</span> | <span style="color:#ffeb82">Armor</span> |

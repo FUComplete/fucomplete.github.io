@@ -78,11 +78,12 @@ p.new-title, blockquote.new-title {
 }
 
 // Tables
+
+// Fix coloring
 th,
 td {
     background-color: rgba(#242424, 1);
 }
-
 
 // Fix page width
 
@@ -100,7 +101,8 @@ td {
     }
     
 }
-  
-// .main {
-//     max-width: 1200px;
-// }
+
+// Divider line grad
+hr {
+    background: linear-gradient(90deg, rgba($grey-dk-200, 1) 0%, rgba($grey-dk-200, 0) 70%);
+}

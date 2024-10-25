@@ -5,7 +5,9 @@ nav_order: 2
 ---
 
 # Quests
-{: .text-yellow-300 .fw-500 .fs-8 .lh-default .no_toc }
+{: .text-yellow-300 .fw-700 .no_toc }
+
+---
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -18,10 +20,10 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Village (Elder)
+## Village (Elder)
 {: .text-yellow-300 .fw-700 }
 
-#### LV★
+### LV★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
@@ -31,9 +33,9 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </style>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -65,15 +67,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★
+### LV★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -170,15 +172,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★
+### LV★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -275,15 +277,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★
+### LV★★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -385,15 +387,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★
+### LV★★★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -490,15 +492,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★
+### LV★★★★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -562,18 +564,18 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Village (Nekoht)
+## Village (Nekoht)
 {: .text-yellow-300 .fw-700 }
 
-#### LV★★★★★★★
+### LV★★★★★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -650,15 +652,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★★★
+### LV★★★★★★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -760,15 +762,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★★★★
+### LV★★★★★★★★★
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -907,18 +909,18 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Guildhall (Low Rank)
+## Guildhall (Low Rank)
 {: .text-yellow-300 .fw-700 }
 
-#### LV★ (HR1)
+### LV★ (HR1)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -975,15 +977,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★ (HR1)
+### LV★★ (HR1)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1035,15 +1037,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★ (HR1)
+### LV★★★ (HR1)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1160,15 +1162,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★ (HR2)
+### LV★★★★ (HR2)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1305,15 +1307,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★ (HR3)
+### LV★★★★★ (HR3)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1422,18 +1424,18 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Guildhall (High Rank)
+## Guildhall (High Rank)
 {: .text-yellow-300 .fw-700 }
 
-#### LV★★★★★★ (HR4)
+### LV★★★★★★ (HR4)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1505,15 +1507,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★★ (HR5)
+### LV★★★★★★★ (HR5)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1655,15 +1657,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★★★ (HR6)
+### LV★★★★★★★★ (HR6)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1852,18 +1854,18 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Guildhall (G Rank)
+## Guildhall (G Rank)
 {: .text-yellow-300 .fw-700 }
 
-#### LV★★★★★★★★★ (HR7)
+### LV★★★★★★★★★ (HR7)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -1995,15 +1997,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★★★★★ (HR8)
+### LV★★★★★★★★★★ (HR8)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -2145,15 +2147,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 </tbody>
 </table>
 
-#### LV★★★★★★★★★★★ (HR9)
+### LV★★★★★★★★★★★ (HR9)
 {: .text-yellow-300 .fw-700 .text-center }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -2327,15 +2329,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Treasure Hunt
+## Treasure Hunt
 {: .text-yellow-300 .fw-700 }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
@@ -2379,15 +2381,15 @@ Quest IDs 30000, 40000 and 50000 are all unused and are dummied as `Gathering Sn
 
 ---
 
-### Training Quests
+## Training Quests
 {: .text-yellow-300 .fw-700 }
 
 <table>
 <thead>
   <tr>
-    <th>QuestID</th>
-    <th>FileID</th>
-    <th>Quest Name</th>
+    <th style="color:#ffeb82;">QuestID</th>
+    <th style="color:#ffeb82;">FileID</th>
+    <th style="color:#ffeb82;">Quest Name</th>
   </tr>
 </thead>
 <tbody>
